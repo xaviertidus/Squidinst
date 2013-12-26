@@ -38,6 +38,6 @@ echo "Your original /etc/squid/squid.conf file has been backed up with a .origin
 echo " "
 echo "Need help or want to see where you can go from here? Visit http://www.xaviertidus.com for more tutorials and quick scripts!"
 echo " "
-echo "This installer added a few empty config files to help you get kick started with rules for your squid server! Check out:  for detailed information about how to use these files."
+echo "This installer added a few empty config files to help you get kick started with rules for your squid server! Check out: http://xaviertidus.com/?p=104 for detailed information about how to use these files."
 
 ) 2>&1 | tee /var/log/SquidInst-CentOS6-installer.log
