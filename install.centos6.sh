@@ -24,14 +24,14 @@ yum install squid -y
 echo "Running post install configuration"
 #Backup squid.conf and write our version
 mv /etc/squid/squid.conf /etc/squid/squid.conf.original
-cp /opt/squidinst/etc/squid/squid.conf /etc/squid/squid.conf
+cp /opt/Squidinst/etc/squid/squid.conf /etc/squid/squid.conf
 
 #Write our rule files
-cp /opt/squidinst/etc/squid/clients.blocked.squid /etc/squid/clients.blocked.squid
-cp /opt/squidinst/etc/squid/clients.administrators.squid /etc/squid/clients.administrators.squid
-cp /opt/squidinst/etc/squid/ipaddresses.blocked.squid /etc/squid/ipaddresses.blocked.squid
-cp /opt/squidinst/etc/squid/keywords.blocked.squid /etc/squid/keywords.blocked.squid
-cp /opt/squidinst/etc/squid/sites.blocked.squid /etc/squid/sites.blocked.squid
+cp /opt/Squidinst/etc/squid/clients.blocked.squid /etc/squid/clients.blocked.squid
+cp /opt/Squidinst/etc/squid/clients.administrators.squid /etc/squid/clients.administrators.squid
+cp /opt/Squidinst/etc/squid/ipaddresses.blocked.squid /etc/squid/ipaddresses.blocked.squid
+cp /opt/Squidinst/etc/squid/keywords.blocked.squid /etc/squid/keywords.blocked.squid
+cp /opt/Squidinst/etc/squid/sites.blocked.squid /etc/squid/sites.blocked.squid
 
 echo "Installation of Squid is Complete!"
 echo "Your original /etc/squid/squid.conf file has been backed up with a .original extension."
