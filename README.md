@@ -1,0 +1,4 @@
+Squidinst
+=========
+
+Squid Installer
